@@ -38,7 +38,7 @@ def find_valid_calls(planeteer_calls)
 
   if valid_calls[counter].include? planeteer_calls
       return valid_calls[counter]
-  break
+        break
       counter += 1
     else
       return nil
