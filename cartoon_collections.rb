@@ -36,7 +36,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   counter = 0
 
-  planeteer_calls.each do |element|
+  valid_calls.each do |element|
     if valid_calls.include? element
       return element
       counter += 1
