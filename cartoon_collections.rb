@@ -37,7 +37,7 @@ def find_valid_calls(planeteer_calls)
   counter = 0
 
   planeteer_calls.each do |element|
-    if valid_calls.include? element
+    if valid_calls.include? "element"
       return valid_calls[counter]
       counter += 1
     else
